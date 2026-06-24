@@ -8,10 +8,10 @@ const ROLE_ID = '965315419382611988';
 const LOG_CHANNEL_ID = '839607069178200115';
 
 // Name template for the counter voice channel. {count} is replaced with the live number.
-const COUNTER_TEMPLATE = '👥 Members: {count}';
+const COUNTER_TEMPLATE = 'Monthly Players: {count}';
 // Optional: set VOICE_COUNTER_CHANNEL_ID env var to reuse an existing voice channel.
 // If unset, the bot creates one automatically and reuses any it previously made.
-const COUNTER_PREFIX = '👥 Members:';
+const COUNTER_PREFIX = 'Monthly Players:';
 
 client.once('ready', async () => {
   console.log(`Logged in as ${client.user.tag}`);
